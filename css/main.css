@@ -1,34 +1,13 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   font-family: sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
 body {
-  margin: 0;
-  background-color: #AEEDE0;
+  background-color: #aeede0;
   text-align: center;
 }
 
-h2{
-  font-family: 'Playfair Display', serif;
-  color: #F9FFAA;
-}
-
-em {
-  font-weight: bold;
+h2 {
+  font-family: "Playfair Display", serif;
+  color: #f9ffaa;
 }
